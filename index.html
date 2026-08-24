@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Anthony Chan — data scientist and PhD researcher. Research, publications, projects, and open-source work." />
+    <meta name="theme-color" content="#f4f0e8" />
+    <meta property="og:title" content="Anthony Chan — PhD Research Portfolio" />
+    <meta property="og:description" content="Research, publications, projects, and open-source work from my PhD." />
+    <meta property="og:type" content="website" />
+    <title>Anthony Chan — Data Scientist & PhD Researcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Anthony Chan, home">
+        <span class="wordmark-photo">
+          <img src="assets/profile.jpg" alt="Portrait of Anthony Chan" onerror="this.hidden=true" />
+          <span aria-hidden="true">AC</span>
+        </span>
+        <span>Anthony Chan</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-cta" href="mailto:your.email@university.ac.uk">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Data scientist · PhD researcher</p>
+          <h1 id="hero-title">About me.</h1>
+          <p class="hero-intro">I’m Anthony, a data scientist completing a PhD in <strong>[your field]</strong> at <strong>[your university]</strong>. I use statistical modelling and thoughtful visualisation to investigate <strong>[your PhD topic]</strong> and communicate the findings clearly.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">More about me <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Areas of expertise">
+        <div><span>Statistical modelling</span><i>✦</i><span>Data analysis</span><i>✦</i><span>Data visualisation</span><i>✦</i><span>Reproducible research</span><i>✦</i><span>Scientific communication</span></div>
+      </section>
+
+      <section class="section-shell split-section" id="research" aria-labelledby="research-title">
+        <div class="section-index"><span>01</span><p>Research focus</p></div>
+        <div class="section-content">
+          <p class="kicker">The question behind the code</p>
+          <h2 id="research-title">My PhD explores <em>[your central research question].</em></h2>
+          <div class="research-grid">
+            <p class="lead">I combine domain knowledge with modern data science to understand patterns that are difficult to see—and harder to explain.</p>
+            <div class="research-details">
+              <p>My work draws on <strong>[data sources or study setting]</strong> to investigate <strong>[specific phenomenon]</strong>. I build transparent analytical pipelines, test assumptions carefully, and communicate uncertainty honestly.</p>
+              <p>The wider goal is to help <strong>[people, field, or industry]</strong> make better evidence-led decisions.</p>
+              <a class="text-link" href="mailto:your.email@university.ac.uk">Discuss a collaboration <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-shell">
+          <div class="projects-heading">
+            <div><p class="eyebrow light">02 · Selected work</p><h2 id="projects-title">Research in practice.</h2></div>
+            <p>A selection of PhD chapters, analytical projects, and tools. Replace these examples with your own work.</p>
+          </div>
+          <div class="project-list">
+            <article class="project-card featured">
+              <div class="project-number">01</div>
+              <div class="project-main">
+                <p class="project-type">PhD research · Quantitative study</p>
+                <h3>[Your flagship research project]</h3>
+                <p>A concise description of the problem, your method, and the most important result. Aim for two sentences a non-specialist can understand.</p>
+                <ul class="tags"><li>Python</li><li>Bayesian modelling</li><li>Longitudinal data</li></ul>
+              </div>
+              <a class="project-link" href="#publications" aria-label="Read about your flagship research project">↗</a>
+            </article>
+            <article class="project-card">
+              <div class="project-number">02</div>
+              <div class="project-main">
+                <p class="project-type">Open source · Research software</p>
+                <h3>[A tool or reproducible pipeline]</h3>
+                <p>Describe what you built, who it helps, and the improvement it created—faster analysis, fewer errors, or easier reuse.</p>
+                <ul class="tags"><li>R</li><li>GitHub Actions</li><li>Open science</li></ul>
+              </div>
+              <a class="project-link" href="https://github.com/" aria-label="View project on GitHub">↗</a>
+            </article>
+            <article class="project-card">
+              <div class="project-number">03</div>
+              <div class="project-main">
+                <p class="project-type">Data story · Interactive visualisation</p>
+                <h3>[A public-facing data story]</h3>
+                <p>Show how you turned a complicated result into an accessible visual explanation for researchers, stakeholders, or the public.</p>
+                <ul class="tags"><li>SQL</li><li>Observable</li><li>Data visualisation</li></ul>
+              </div>
+              <a class="project-link" href="#projects" aria-label="View data story">↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell split-section publications" id="publications" aria-labelledby="publications-title">
+        <div class="section-index"><span>03</span><p>Publications</p></div>
+        <div class="section-content">
+          <div class="section-title-row"><h2 id="publications-title">Selected writing.</h2><a class="text-link" href="https://scholar.google.com/">Google Scholar <span aria-hidden="true">↗</span></a></div>
+          <ol class="publication-list">
+            <li><span class="pub-year">2026</span><div><h3>[Paper title: make the contribution clear]</h3><p><strong>Chan, A.</strong>, Coauthor, B. · <em>Journal Name</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
+            <li><span class="pub-year">2025</span><div><h3>[Second paper or conference presentation]</h3><p>Coauthor, A., <strong>Chan, A.</strong> · <em>Conference or Journal</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
+            <li><span class="pub-year">2024</span><div><h3>[Preprint, methods paper, or research report]</h3><p><strong>Chan, A.</strong> · <em>Preprint / Institution</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-shell about-grid">
+          <div><p class="eyebrow light">04 · About</p><h2 id="about-title">Scientist by training.<br /><em>Translator by instinct.</em></h2></div>
+          <div class="about-copy">
+            <p>I’m Anthony, a data scientist completing a PhD in <strong>[field]</strong> at <strong>[university]</strong>. I enjoy the full research process: shaping useful questions, wrestling unruly data into reliable evidence, and explaining what the results actually mean.</p>
+            <p>Outside the thesis, I’m interested in open science, reproducible methods, and collaborations that connect academic rigour with real-world impact.</p>
+            <div class="social-links"><a href="https://github.com/">GitHub ↗</a><a href="https://www.linkedin.com/">LinkedIn ↗</a><a href="https://scholar.google.com/">Scholar ↗</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="section-shell contact-inner">
+          <p class="eyebrow">Have an interesting question?</p>
+          <h2>Let’s make sense of it.</h2>
+          <a class="button button-primary" href="mailto:your.email@university.ac.uk">your.email@university.ac.uk <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Anthony Chan</p>
+      <p>Designed for clarity. Built for GitHub Pages.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
