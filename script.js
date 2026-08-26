@@ -11,6 +11,11 @@ navigation?.addEventListener('click', () => {
   menuButton?.setAttribute('aria-expanded', 'false');
 });
 
+document.querySelectorAll('a[href^="http"]').forEach((link) => {
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+});
+
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const copyEmailButton = document.querySelector('.copy-email');

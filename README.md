@@ -6,6 +6,8 @@ A lightweight academic portfolio designed for GitHub Pages. It presents my profi
 
 The site content lives in `index.html`, with its visual design in `styles.css` and small interactions in `script.js`.
 
+Search-engine metadata and Person/ProfilePage structured data are stored in the `<head>` of `index.html`. `sitemap.xml` and `robots.txt` help search engines discover the canonical public URL.
+
 The current portrait is `assets/Self-Portrait Pro.jpg`. The site also uses `banner2-web.jpg`, `Sea Ice 2.jpg`, `Parliament.jpg`, `Polar potrait.jpg`, `logo2.png`, and `Penguinfavicon.png` as feature imagery.
 
 To preview the embedded YouTube video locally, serve the folder over HTTP rather than opening `index.html` directly:
