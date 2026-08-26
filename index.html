@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Anthony Chan — data scientist and PhD researcher. Research, publications, projects, and open-source work." />
+    <meta name="description" content="Anthony Chan — climate scientist researching Antarctic and Arctic sea ice variability, extreme loss events, and global climate impacts." />
     <meta name="theme-color" content="#f4f0e8" />
-    <meta property="og:title" content="Anthony Chan — PhD Research Portfolio" />
-    <meta property="og:description" content="Research, publications, projects, and open-source work from my PhD." />
+    <meta property="og:title" content="Anthony Chan — Polar Climate Scientist" />
+    <meta property="og:description" content="Research on polar sea ice variability, extreme loss events, predictability, and global climate impacts." />
     <meta property="og:type" content="website" />
-    <title>Anthony Chan — Data Scientist & PhD Researcher</title>
+    <title>Anthony Chan — Polar Climate Scientist</title>
+    <link rel="icon" type="image/png" href="assets/Penguinfavicon.png" />
+    <link rel="apple-touch-icon" href="assets/Penguinfavicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
@@ -20,123 +22,193 @@
     <header class="site-header" id="top">
       <a class="wordmark" href="#top" aria-label="Anthony Chan, home">
         <span class="wordmark-photo">
-          <img src="assets/profile.jpg" alt="Portrait of Anthony Chan" onerror="this.hidden=true" />
+          <img src="assets/Self-Portrait%20Pro.jpg" alt="Portrait of Anthony Chan" onerror="this.hidden=true" />
           <span aria-hidden="true">AC</span>
         </span>
         <span>Anthony Chan</span>
       </a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" aria-label="Main navigation">
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
         <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#outreach">Outreach</a>
+        <a href="#policy">Policy</a>
+        <a href="#community">Community</a>
       </nav>
-      <a class="header-cta" href="mailto:your.email@university.ac.uk">Get in touch <span aria-hidden="true">↗</span></a>
+      <button class="header-cta copy-email" type="button" data-email="cc1256@exeter.ac.uk" title="Copy email address">
+        <span class="copy-label">cc1256@exeter.ac.uk</span> <span aria-hidden="true">⧉</span>
+      </button>
     </header>
 
     <main id="main">
-      <section class="hero section-shell" aria-labelledby="hero-title">
+      <figure class="site-banner">
+        <img src="assets/banner2-web.jpg" alt="A panoramic view of a snow-covered polar coastline at sunrise" />
+      </figure>
+      <section class="hero section-shell" id="about" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> Data scientist · PhD researcher</p>
+          <p class="eyebrow"><span class="status-dot"></span> Climate scientist · PhD researcher</p>
           <h1 id="hero-title">About me.</h1>
-          <p class="hero-intro">I’m Anthony, a data scientist completing a PhD in <strong>[your field]</strong> at <strong>[your university]</strong>. I use statistical modelling and thoughtful visualisation to investigate <strong>[your PhD topic]</strong> and communicate the findings clearly.</p>
+          <p class="hero-intro">I’m Anthony, a climate scientist researching <strong>Antarctic and Arctic sea ice variability</strong>, the drivers of extreme sea ice loss, and how changes in the polar regions influence the global climate system.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="#about">More about me <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#community">Community &amp; teaching <span aria-hidden="true">↓</span></a>
           </div>
         </div>
+        <figure class="hero-portrait">
+          <div class="portrait-frame">
+            <span class="portrait-initials" aria-hidden="true">AC</span>
+            <img src="assets/Self-Portrait%20Pro.jpg" alt="Anthony Chan" onerror="this.hidden=true" />
+          </div>
+          <figcaption>Anthony Chan · Climate scientist</figcaption>
+        </figure>
       </section>
 
       <section class="ticker" aria-label="Areas of expertise">
-        <div><span>Statistical modelling</span><i>✦</i><span>Data analysis</span><i>✦</i><span>Data visualisation</span><i>✦</i><span>Reproducible research</span><i>✦</i><span>Scientific communication</span></div>
+        <div><span>Polar climate</span><i>✦</i><span>Sea ice variability</span><i>✦</i><span>Climate modelling</span><i>✦</i><span>Satellite observations</span><i>✦</i><span>Statistical analysis</span></div>
       </section>
 
       <section class="section-shell split-section" id="research" aria-labelledby="research-title">
         <div class="section-index"><span>01</span><p>Research focus</p></div>
         <div class="section-content">
-          <p class="kicker">The question behind the code</p>
-          <h2 id="research-title">My PhD explores <em>[your central research question].</em></h2>
+          <p class="kicker">Understanding a changing polar climate</p>
+          <h2 id="research-title">Why does polar sea ice vary—and what drives <em>extreme loss?</em></h2>
           <div class="research-grid">
-            <p class="lead">I combine domain knowledge with modern data science to understand patterns that are difficult to see—and harder to explain.</p>
+            <p class="lead">I investigate the mechanisms controlling sea ice behaviour and its predictability from seasonal to decadal timescales.</p>
             <div class="research-details">
-              <p>My work draws on <strong>[data sources or study setting]</strong> to investigate <strong>[specific phenomenon]</strong>. I build transparent analytical pipelines, test assumptions carefully, and communicate uncertainty honestly.</p>
-              <p>The wider goal is to help <strong>[people, field, or industry]</strong> make better evidence-led decisions.</p>
-              <a class="text-link" href="mailto:your.email@university.ac.uk">Discuss a collaboration <span aria-hidden="true">↗</span></a>
+              <p>My research combines <strong>large climate model ensembles, satellite observations, and statistical methods</strong> to separate the effects of internal climate variability from longer-term change.</p>
+              <p>By identifying the atmospheric and oceanic drivers behind extreme events, I aim to improve understanding of polar predictability and how sea ice change influences the wider global climate system.</p>
+              <a class="text-link" href="mailto:cc1256@exeter.ac.uk">Discuss a collaboration <span aria-hidden="true">↗</span></a>
             </div>
           </div>
+          <figure class="research-image">
+            <img src="assets/Sea%20Ice%202.jpg" alt="Sea ice and mountains in the polar landscape" loading="lazy" />
+            <figcaption>Field view across the sea ice</figcaption>
+          </figure>
         </div>
       </section>
 
       <section class="projects-section" id="projects" aria-labelledby="projects-title">
         <div class="section-shell">
           <div class="projects-heading">
-            <div><p class="eyebrow light">02 · Selected work</p><h2 id="projects-title">Research in practice.</h2></div>
-            <p>A selection of PhD chapters, analytical projects, and tools. Replace these examples with your own work.</p>
+            <div><p class="eyebrow light">02 · Research &amp; publications</p><h2 id="projects-title">Selected work.</h2></div>
+            <p>Three publications spanning Antarctic extremes, Arctic variability, and the connection between physical polar processes and marine ecosystems. <a class="inline-light-link" href="https://scholar.google.com/citations?user=frpQP0YAAAAJ&amp;hl=en">View all on Google Scholar ↗</a></p>
           </div>
           <div class="project-list">
             <article class="project-card featured">
               <div class="project-number">01</div>
               <div class="project-main">
-                <p class="project-type">PhD research · Quantitative study</p>
-                <h3>[Your flagship research project]</h3>
-                <p>A concise description of the problem, your method, and the most important result. Aim for two sentences a non-specialist can understand.</p>
-                <ul class="tags"><li>Python</li><li>Bayesian modelling</li><li>Longitudinal data</li></ul>
+                <p class="project-type">Antarctic climate · Extreme events</p>
+                <h3>Extreme Antarctic sea ice loss</h3>
+                <p>Investigating how a negative shift in the Southern Annular Mode facilitated an extreme Antarctic sea ice loss event using observations and climate-model evidence.</p>
+                <p class="project-citation"><strong>Chan, A. C. et al. (2025)</strong> · <em>Geophysical Research Letters</em>, 52(20), e2025GL116688</p>
+                <ul class="tags"><li>Climate ensembles</li><li>Sea ice</li><li>Atmospheric drivers</li></ul>
               </div>
-              <a class="project-link" href="#publications" aria-label="Read about your flagship research project">↗</a>
+              <a class="project-link" href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2025GL116688" aria-label="Read Extreme Antarctic sea ice loss">↗</a>
             </article>
             <article class="project-card">
               <div class="project-number">02</div>
               <div class="project-main">
-                <p class="project-type">Open source · Research software</p>
-                <h3>[A tool or reproducible pipeline]</h3>
-                <p>Describe what you built, who it helps, and the improvement it created—faster analysis, fewer errors, or easier reuse.</p>
-                <ul class="tags"><li>R</li><li>GitHub Actions</li><li>Open science</li></ul>
+                <p class="project-type">Arctic climate · Internal variability</p>
+                <h3>Recent Arctic sea ice trends</h3>
+                <p>Examining why Arctic sea ice loss has been minimal over the last 20 years and showing how this period is consistent with internal climate variability.</p>
+                <p class="project-citation"><strong>England, M. R. et al. (2025)</strong> · <em>Geophysical Research Letters</em>, 52(15), e2025GL116175</p>
+                <ul class="tags"><li>Arctic sea ice</li><li>Internal variability</li><li>Climate models</li></ul>
               </div>
-              <a class="project-link" href="https://github.com/" aria-label="View project on GitHub">↗</a>
+              <a class="project-link" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL116175" aria-label="Read Minimal Arctic sea ice loss in the last 20 years">↗</a>
             </article>
             <article class="project-card">
               <div class="project-number">03</div>
               <div class="project-main">
-                <p class="project-type">Data story · Interactive visualisation</p>
-                <h3>[A public-facing data story]</h3>
-                <p>Show how you turned a complicated result into an accessible visual explanation for researchers, stakeholders, or the public.</p>
-                <ul class="tags"><li>SQL</li><li>Observable</li><li>Data visualisation</li></ul>
+                <p class="project-type">Polar ecology · Sea ice habitat</p>
+                <h3>Arctic sea-ice ridges as algal habitat</h3>
+                <p>Contributing to research showing that sea-ice ridges provide a major share of algal habitable space in the Arctic spring.</p>
+                <p class="project-citation"><strong>Castellani, G. et al. (2025)</strong> · <em>Frontiers in Marine Science</em>, 12, 1653882</p>
+                <ul class="tags"><li>Sea-ice ecology</li><li>Arctic</li><li>Habitat</li></ul>
               </div>
-              <a class="project-link" href="#projects" aria-label="View data story">↗</a>
+              <a class="project-link" href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1653882/full" aria-label="Read Arctic sea-ice ridges">↗</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section-shell split-section publications" id="publications" aria-labelledby="publications-title">
-        <div class="section-index"><span>03</span><p>Publications</p></div>
-        <div class="section-content">
-          <div class="section-title-row"><h2 id="publications-title">Selected writing.</h2><a class="text-link" href="https://scholar.google.com/">Google Scholar <span aria-hidden="true">↗</span></a></div>
-          <ol class="publication-list">
-            <li><span class="pub-year">2026</span><div><h3>[Paper title: make the contribution clear]</h3><p><strong>Chan, A.</strong>, Coauthor, B. · <em>Journal Name</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
-            <li><span class="pub-year">2025</span><div><h3>[Second paper or conference presentation]</h3><p>Coauthor, A., <strong>Chan, A.</strong> · <em>Conference or Journal</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
-            <li><span class="pub-year">2024</span><div><h3>[Preprint, methods paper, or research report]</h3><p><strong>Chan, A.</strong> · <em>Preprint / Institution</em></p></div><a href="#publications" aria-label="Open publication">↗</a></li>
-          </ol>
+      <section class="outreach-section" id="outreach" aria-labelledby="outreach-title">
+        <div class="section-shell outreach-intro">
+          <div class="channel-brand">
+            <img src="assets/logo2.png" alt="PhD Bonbon YouTube channel logo" loading="lazy" />
+          </div>
+          <div class="outreach-copy">
+            <p class="eyebrow">Science beyond academia</p>
+            <h2 id="outreach-title">PhD Bonbon</h2>
+            <p class="outreach-lead">I make accessible videos about climate science, polar research, global heritage sites, and history.</p>
+            <p>Travelling to UNESCO World Heritage Sites is one of my main hobbies. The channel gives me a place to connect those journeys with the science, culture, and history that make each place significant.</p>
+            <a class="button button-dark" href="https://www.youtube.com/@phdbonbon2025">Visit the channel <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="section-shell featured-video">
+          <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/s_AZ4ykKD3k?start=41" title="Climate change explained by PhD Bonbon" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="video-copy">
+            <p class="eyebrow">Featured video · Climate change</p>
+            <h3>A changing climate—at an unprecedented pace</h3>
+            <p>Earth’s climate has always changed. We have experienced Ice Ages with giant ice sheets and warm, tropical worlds with no ice at all—but those shifts unfolded over tens of thousands to millions of years.</p>
+            <p>Today, humanity has warmed the planet by more than 1 °C in under 200 years. This video explores why the pace of modern climate change matters.</p>
+            <a class="text-link" href="https://www.youtube.com/watch?v=s_AZ4ykKD3k&amp;t=41s">Watch on YouTube <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </section>
 
-      <section class="about-section" id="about" aria-labelledby="about-title">
+      <section class="policy-section" id="policy" aria-labelledby="policy-title">
+        <div class="section-shell policy-grid">
+          <div class="section-index policy-index"><span>03</span><p>Science &amp; policy</p></div>
+          <div class="policy-content">
+            <p class="kicker">UK Parliament · POST placement</p>
+            <h2 id="policy-title">Turning evidence into <em>policy insight.</em></h2>
+            <figure class="policy-image">
+              <img src="assets/Parliament.jpg" alt="Anthony Chan beside the River Thames, with the London Eye and UK Parliament offices behind" loading="lazy" />
+              <figcaption>During my placement with the Parliamentary Office of Science and Technology</figcaption>
+            </figure>
+            <div class="policy-columns">
+              <p class="lead">I took a break from my PhD to undertake a policy placement with the Parliamentary Office of Science and Technology at the UK Parliament.</p>
+              <div>
+                <p>At POST, I worked on a parliamentary briefing examining the risks, management, and policy challenges associated with landfills in the UK.</p>
+                <p>The work involved synthesising evidence across environmental science, regulation, and policy, and engaging with academics, regulators, local authorities, and other stakeholders to understand scientific uncertainties and real-world decision-making challenges around landfill contamination.</p>
+                <a class="button button-primary" href="https://post.parliament.uk/research-briefings/post-pn-0759/">Read the parliamentary briefing <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="community" aria-labelledby="community-title">
         <div class="section-shell about-grid">
-          <div><p class="eyebrow light">04 · About</p><h2 id="about-title">Scientist by training.<br /><em>Translator by instinct.</em></h2></div>
+          <div class="about-visual">
+            <p class="eyebrow light">04 · Beyond research</p>
+            <h2 id="community-title">Science, community<br />and <em>communication.</em></h2>
+            <figure class="community-image">
+              <img src="assets/Polar%20potrait.jpg" alt="Anthony Chan dressed for polar fieldwork" loading="lazy" />
+              <figcaption>Polar science beyond the desk</figcaption>
+            </figure>
+          </div>
           <div class="about-copy">
-            <p>I’m Anthony, a data scientist completing a PhD in <strong>[field]</strong> at <strong>[university]</strong>. I enjoy the full research process: shaping useful questions, wrestling unruly data into reliable evidence, and explaining what the results actually mean.</p>
-            <p>Outside the thesis, I’m interested in open science, reproducible methods, and collaborations that connect academic rigour with real-world impact.</p>
-            <div class="social-links"><a href="https://github.com/">GitHub ↗</a><a href="https://www.linkedin.com/">LinkedIn ↗</a><a href="https://scholar.google.com/">Scholar ↗</a></div>
+            <p>Before starting my PhD, I completed an <strong>MSc in Oceanography at the University of Southampton</strong>, analysing animal-tracking data from marine predators to understand foraging distributions and environmental drivers of habitat use.</p>
+            <p>This work introduced me to polar ecology and developed my interest in how physical ocean processes interact with marine wildlife. Earlier in my career, I worked as an <strong>Assistant Transport Planner at Transport Planning Associates from 2018 to 2021</strong>.</p>
+            <p>I serve as the <strong>Early Career Researcher Representative for AntClimNow</strong> and <strong>Social Media Officer for the UK Polar Network</strong>, helping to support and connect early-career polar scientists globally. I also contribute to teaching natural sciences and climate modules at Exeter.</p>
+            <div class="profile-facts">
+              <div><span>Community</span><strong>AntClimNow &amp; UK Polar Network</strong><small>ECR Representative · Social Media Officer</small></div>
+              <div><span>Teaching</span><strong>Natural sciences &amp; climate</strong><small>University of Exeter</small></div>
+            </div>
+            <p>I also run an educational YouTube channel covering climate science, polar research, global heritage sites, and history.</p>
+            <div class="social-links"><a href="https://www.youtube.com/@phdbonbon2025">YouTube ↗</a><a href="https://scholar.google.com/citations?user=frpQP0YAAAAJ&amp;hl=en">Google Scholar ↗</a><a href="https://github.com/anthony-chan1">GitHub ↗</a></div>
           </div>
         </div>
       </section>
 
       <section class="contact-section">
         <div class="section-shell contact-inner">
-          <p class="eyebrow">Have an interesting question?</p>
-          <h2>Let’s make sense of it.</h2>
-          <a class="button button-primary" href="mailto:your.email@university.ac.uk">your.email@university.ac.uk <span aria-hidden="true">↗</span></a>
+          <p class="eyebrow">Research · Collaboration · Outreach</p>
+          <h2>Feel free to contact me.</h2>
+          <a class="button button-primary" href="mailto:cc1256@exeter.ac.uk">cc1256@exeter.ac.uk <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>

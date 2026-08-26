@@ -1,3 +1,5 @@
 # Site assets
 
-Add your portrait here as `profile.jpg`. A square image at least 400 × 400 pixels works best; the site crops it into a circle automatically.
+The current portrait is `Self-Portrait Pro.jpg`. The site automatically crops it for the circular header thumbnail and the larger portrait panel.
+
+`Penguinfavicon.png` is used as the browser-tab and mobile bookmark icon.

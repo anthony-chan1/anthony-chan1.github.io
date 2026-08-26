@@ -2,18 +2,19 @@
 
 A lightweight academic portfolio designed for GitHub Pages. It presents my profile, research, publications, projects, and resources in an original, dependency-free design.
 
-## Personalise the site
+## Updating the site
 
-Open `index.html` in a text editor and search for `[` to find every sample placeholder. Replace:
+The site content lives in `index.html`, with its visual design in `styles.css` and small interactions in `script.js`.
 
-- the PhD topic, university, research question, methods, and impact;
-- the three project summaries and links;
-- publications and Google Scholar URL;
-- email address, GitHub, LinkedIn, and CV links.
+The current portrait is `assets/Self-Portrait Pro.jpg`. The site also uses `banner2-web.jpg`, `Sea Ice 2.jpg`, `Parliament.jpg`, `Polar potrait.jpg`, `logo2.png`, and `Penguinfavicon.png` as feature imagery.
 
-Add your portrait as `assets/profile.jpg`. The header shows your initials until that file is present.
+To preview the embedded YouTube video locally, serve the folder over HTTP rather than opening `index.html` directly:
 
-If you want a CV button, add your PDF (for example at `assets/anthony-chan-cv.pdf`) and replace the “More about me” link. Test locally by opening `index.html` in a browser.
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
 
 ## Publish at `https://YOUR_USERNAME.github.io`
 
